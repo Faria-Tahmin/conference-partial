@@ -1,0 +1,200 @@
+
+body{
+    margin:0px;
+    padding:0px;
+    width:100%;
+    height:100%;
+}
+
+
+.btn-login{
+   
+    color:white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin:5px;
+}
+
+.tcce{
+    color:#428BCA;
+    font-weight:bolder;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 40px;
+    
+}
+.year{
+    color: #888;
+    font-weight: bolder;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 40px;
+}
+
+
+.navbar-nav > li{
+    
+    padding: 30px 8px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    
+  }
+  .nav-spacing{
+    margin-left: 150px;
+}
+.nav-link{
+    color: black;
+}
+.dropdown-item{
+    color: grey;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.dropdown-item:hover{
+    color: white;
+   
+    background-color: #428BCA;
+}
+navbar-fixed-top{
+    box-shadow: 5px 10px #888888;
+}
+
+
+.jumbotron {
+    
+	background: url("images/bigBG.jpg") repeat center center scroll; 
+    background-position: center;
+    width: 100%;
+    height:100%;
+    background-size: cover;
+	padding-bottom: 200px;
+    padding-top: 140px;
+    padding-left: 100px;
+	color: #fff;
+    margin:auto;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+
+  font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+	
+}
+#tracks{
+    margin-top:300px;
+}
+.track1{
+    text-align: center;
+    color: grey;
+    font-size:20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top:200px;
+    padding-bottom: 0px;
+    
+}
+.track2{
+    text-align: center;
+    font-size:50px;
+    font-weight: bolder;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #428BCA;
+}
+.track3{
+    text-align: center;
+    font-size:20px;
+    font-weight: 600;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+}
+
+.view-content {
+    position: relative;
+    width: 100%;
+   
+}
+.card-style1 {
+    position: relative;
+    
+    display: flex;
+    width: 200px;
+    height:80px;
+    flex-direction: column;
+    min-width: 0;
+    text-align:center;
+  
+    background-color: #fff;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    border: 2px solid rgba(0,0,0,.125);
+    border-radius: 4px;
+    margin:5px 30px;
+    box-shadow: 3px 3px 5px #66a5db;
+    
+
+}
+
+.img-rounded {
+    border-radius: 6px;
+}
+.img-keynote{
+    height: 250px;
+    border:0px;
+}
+.img-keynote:hover{
+    transform: scale(1.1);
+}
+
+.partition-bg{
+    background-image: linear-gradient(white, #7ab4e7);
+    height:250px;
+    margin-bottom: 100px;
+
+}
+
+.partion-title{
+
+    color:#428BCA;
+    font-weight:bolder;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    padding-top:100px;
+    padding-left:180px;
+}
+.modal-body{
+    font-size: 17px;
+    font-weight: normal;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 5px 25px;
+    text-align: justify;
+}
+.modal-title{
+    font-size:22px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 5px 20px;
+    text-align: justify;
+    font-weight: bold;
+    color:black;
+}
+.modal-sub-title{
+    font-size: 16px;
+    color:gray;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    text-align: start;
+}
+.btn-keynote{
+    text-decoration: none;
+    color: white;
+}
+
+.keynote-sub-title{
+    font-size: 25px;
+    color:gray;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: Bold;
+    text-align: start;
+}
